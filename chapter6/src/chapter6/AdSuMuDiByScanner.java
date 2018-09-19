@@ -11,24 +11,24 @@ import java.util.Scanner;
  *
  * @author User
  */
-public class AdSuMuDi {
-    public static void main(String[] args) {
+public class AdSuMuDiByScanner {
+      public static void main(String[] args) {
           
-          AdSuMuDi m=new AdSuMuDi();
-          int mm=m.Addition(5, 3, "+");
+          AdSuMuDiByScanner m=new AdSuMuDiByScanner();
+          int mm=m.Addition(6, 3, "/");
           System.out.println("Reasult: "+mm);
-      //  AdSuMuDi m= new AdSuMuDi();
-        // Scanner sc= new Scanner(System.in);
-       // System.out.println("Enter 1st number: ");
-      //  int first=sc.nextInt();
-       // System.out.println("Enter simble of wht u want to do: ");
-        //String sym=sc.nextLine();
+    //    AdSuMuDi m= new AdSuMuDi();
+       //  Scanner sc= new Scanner(System.in);
+      ///  System.out.println("Enter 1st number: ");
+      // int first=sc.nextInt();
+      //  System.out.println("Enter simble of wht u want to do: ");
+       // String sym=sc.nextLine();
        // System.out.println("Enter 2st number: ");
-            // int second=sc.nextInt();
-             
+       //     int second=sc.nextInt();
+     
     }
   public int Addition(int num1, int num2,String str){
-      
+    
       int rt=0;
       if (str=="+"){
           rt=num1+num2;
