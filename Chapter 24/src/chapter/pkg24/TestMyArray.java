@@ -1,0 +1,34 @@
+package chapter.pkg24;
+
+import com.sun.xml.internal.ws.api.ha.StickyFeature;
+
+public class TestMyArray {
+
+    public static void main(String[] args) {
+        MyList<String> list = new MyArrayList<>();
+
+        list.add("America");
+        System.out.println("(1)" + list);
+        list.add("Canada");
+        System.out.println("(2)" + list);
+        list.add("Russia");
+        System.out.println("(3)" + list);
+        list.add("France");
+        System.out.println("(4)" + list);
+        list.add("Gremany");
+        System.out.println("(5)" + list);
+        list.add("Norway");
+        System.out.println("(6)" + list);
+        list.remove("Canada");
+        System.out.println("(7)" + list);
+        list.remove(2);
+        System.out.println("(8)" + list);
+        list.remove(list.size() - 1);
+        System.out.println("(9)" + list + "\n(10)");
+
+        for (String s : list) {
+            System.out.println(s.toUpperCase() + " ");
+        }
+    }
+
+}
